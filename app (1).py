@@ -10,7 +10,7 @@ from rdkit.Chem import AllChem
 # Load model that was saved with only standard scikit-learn types
 model = joblib.load("model.pkl")
 
-st.set_page_config(page_title="NeuroPlex", layout="wide")
+st.set_page_config(page_title="ParkiC50", layout="wide")
 
 def smiles_to_morgan_fp(smiles, radius=2, nBits=2048):
     mol = Chem.MolFromSmiles(smiles)
@@ -79,7 +79,7 @@ def main():
     with col1:
         st.markdown("""
             <div style='line-height: 1.3; color: #000000;'>
-                <h3 style='color:#006a4e;'>Dr. Kashif Iqbal Sahibzada</h3>
+                <h3 style='color:#734F96;'>Dr. Kashif Iqbal Sahibzada</h3>
                 Assistant Professor<br>
                 Department of Health Professional Technologies,<br>
                 Faculty of Allied Health Sciences,<br>
@@ -93,7 +93,7 @@ def main():
     with col2:
         st.markdown("""
             <div style='line-height: 1.3; color: #000000;'>
-                <h3 style='color:#006a4e;'>Shumaila Shahid</h3>
+                <h3 style='color:#734F96;'>Shumaila Shahid</h3>
                 MS Biochemistry<br>
                 School of Biochemistry and Biotechnology<br>
                 University of the Punjab, Lahore<br>
@@ -104,7 +104,7 @@ def main():
     with col3:
         st.markdown("""
             <div style='line-height: 1.3; color: #000000;'>
-                <h3 style='color:#006a4e;'>Fajar Abbas</h3>
+                <h3 style='color:#734F96;'>Fajar Abbas</h3>
                 School of Biochemistry and Biotechnology<br>
                 University of the Punjab, Lahore<br>
                 <b>Email:</b> fajarabbas433@gmail.com
@@ -114,7 +114,7 @@ def main():
     with col4:
         st.markdown("""
             <div style='line-height: 1.3; color: #000000;'>
-                <h3 style='color:#006a4e;'>Saher Abbas</h3>
+                <h3 style='color:#734F96;'>Saher Abbas</h3>
                 School of Biochemistry and Biotechnology<br>
                 University of the Punjab, Lahore<br>
                 <b>Email:</b> saherabbas272004@gmail.com
