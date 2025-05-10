@@ -41,7 +41,7 @@ def get_download_link(df):
 
 def main():
     st.title("🧠ParkiC50")
-    st.markdown("AI-powered prediction of **pIC₅₀** and bioactivity class for biomarker gene targeting drug candidates in Humans against Parkinson's Disease.")
+    st.markdown("AI-powered prediction of **pIC₅₀** and bioactivity class for biomarker genes targeting drug candidates in Humans against Parkinson's Disease.")
 
     input_method = st.radio("Choose Input Method", ["Paste SMILES", "Upload File"])
 
